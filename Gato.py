@@ -16,6 +16,7 @@ class Gato(Animal):
         # Implementação genérica
         print(f"{self.nome} O gato está andando no telhado")
 
-    @classmethod
+    @override
     def especie(cls):
         return "Felino"
+
