@@ -16,6 +16,7 @@ class Cobra(Animal):
         # Sobrescreve o método para classe filha
         print(f"{self.nome} está rastejando.")
 
-    @classmethod
+    @override
     def especie(cls):
         return "Reptil"
+
