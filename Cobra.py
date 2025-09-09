@@ -15,3 +15,7 @@ class Cobra(Animal):
     def locomover(self):
         # Sobrescreve o método para classe filha
         print(f"{self.nome} está rastejando.")
+
+    @classmethod
+    def especie(cls):
+        return "Reptil"
