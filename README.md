@@ -14,12 +14,21 @@ Main.py       # Arquivo principal para executar o programa
 Conceitos Envolvidos
 1. Classe Base (Superclasse)
 
-A classe Animal define os atributos e métodos genéricos que todos os animais compartilham:
+ 1.1   A classe Animal define os atributos e métodos genéricos que todos os animais compartilham:
 
 emitir_som()
 
 locomover()
 
+especie(cls) - metodo abstrato, obriga as classes filhas implementar, esta instrução nao faz nada na classe mãe(cls)
+
+
+1.2   Classe Abstrata
+
+Há o import da classe abstrata, em from abc import ABC, abstractmethod  (não pode ser instanciada diretamente, não pode criar objetos dela)
+#abc = Abstract Base Classes (Módulo interno do Python).
+#ABC → transforma a classe em abstrata (não pode ser instanciada).
+#abstractmethod → marca métodos que devem ser implementados pelas classes filhas.
 
 
 2. Herança
@@ -52,7 +61,7 @@ for animal in animais:
     animal.emitir_som()
     animal.locomover()
 
-
+animal.especie() ---metodo abstrato.
 
 
 Como Executar
@@ -82,5 +91,6 @@ Este projeto mostra de forma simples como aplicar:
 Herança para reaproveitar código.
 
 Sobrescrita de métodos para personalizar comportamentos.
+
 
 Polimorfismo para tratar objetos diferentes de forma uniforme.
