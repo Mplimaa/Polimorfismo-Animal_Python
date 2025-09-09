@@ -15,3 +15,7 @@ class Galo(Animal):
     def locomover(self):
         # Implementação genérica
         print(f"{self.nome} está correndo na grama!")
+
+    @classmethod
+    def especie(cls):
+        return "Ave"
