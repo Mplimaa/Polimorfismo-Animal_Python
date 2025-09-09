@@ -15,4 +15,10 @@ class Cachorro(Animal):
     @override
     def locomover(self):
         # Sobrescreve o método para classe filha
+
         print(f"{self.nome} está correndo na rua!")
+
+    @classmethod
+    def especie(cls):
+        return "Mamifero"
+
