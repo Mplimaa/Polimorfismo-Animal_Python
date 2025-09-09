@@ -16,6 +16,7 @@ class Galo(Animal):
         # Implementação genérica
         print(f"{self.nome} está correndo na grama!")
 
-    @classmethod
+    @override
     def especie(cls):
         return "Ave"
+
