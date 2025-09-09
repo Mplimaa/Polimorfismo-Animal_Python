@@ -18,7 +18,8 @@ class Cachorro(Animal):
 
         print(f"{self.nome} está correndo na rua!")
 
-    @classmethod
+    @override
     def especie(cls):
         return "Mamifero"
+
 
