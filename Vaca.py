@@ -14,4 +14,10 @@ class Vaca(Animal):
     @override
     def locomover(self):
         # Implementação genérica
+
         print(f"{self.nome} O vaca está andando no pasto!")
+
+   @override
+    def especie(cls):
+        return "Mamífero"
+
