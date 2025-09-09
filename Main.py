@@ -4,33 +4,39 @@ from Galo import Galo
 from Gato import Gato
 from Vaca import Vaca
 
-Cachorro = Cachorro("Totó", 7, raca = "Pastor Alemão")
-Cobra = Cobra("Celeste", 5 , escamas="Laranja")
-Galo = Galo("Galinzé", 6 , espora="De aço")
-Gato = Gato("Morfeu", 5 , cor_pelagem="Preto e Branco" )
-Vaca = Vaca("Alegria", 7, chifre="Não tem")
+cachorro1  = Cachorro("Totó", 7, raca = "Pastor Alemão")
+cobra1 = Cobra("Celeste", 5 , escamas="Laranja")
+galo1 = Galo("Galinzé", 6 , espora="De aço")
+gato1 = Gato("Morfeu", 5 , cor_pelagem="Preto e Branco" )
+vaca1 = Vaca("Alegria", 7, chifre="Não tem")
 
 # Lista de animais
-animais = [Cachorro, Cobra, Galo, Gato, Vaca]
+animais = [cachorro1, cobra1, galo1, gato1, vaca1]
 
 # Iterando sobre a lista e chamando o mesmo método para todos
-for animais in animais:
-    animais.emitir_som()
-    animais.locomover()
+for animal in animais:
+    animal.emitir_som()
+    animal.locomover()
+    animal.especie()
 
 
-Cachorro.emitir_som()
-Cachorro.locomover()
+cachorro1.emitir_som()
+cachorro1.locomover()
+cachorro1.especie()
 
-Cobra.emitir_som()
-Cobra.locomover()
+cobra1.emitir_som()
+cobra1.locomover()
+cobra1.especie()
 
-Galo.emitir_som()
-Galo.locomover()
+galo1.emitir_som()
+galo1.locomover()
+galo1.especie()
 
-Gato.emitir_som()
-Gato.locomover()
+gato1.emitir_som()
+gato1.locomover()
+gato1.especie()
 
-Vaca.emitir_som()
-Vaca.locomover()
+vaca1.emitir_som()
+vaca1.locomover()
+vaca1.especie()
 
