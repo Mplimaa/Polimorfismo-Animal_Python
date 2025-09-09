@@ -22,21 +22,21 @@ for animal in animais:
 
 cachorro1.emitir_som()
 cachorro1.locomover()
-cachorro1.especie()
+print(cachorro1.especie())#chama metodo asbtrato da classe mae sem precisar criar objeto cachorro1
 
 cobra1.emitir_som()
 cobra1.locomover()
-cobra1.especie()
+print(cobra1.especie())#chama metodo asbtrato da classe mae sem precisar criar objeto cachorro1
 
 galo1.emitir_som()
 galo1.locomover()
-galo1.especie()
+print(galo1.especie())#chama metodo asbtrato da classe mae sem precisar criar objeto cachorro1
 
 gato1.emitir_som()
 gato1.locomover()
-gato1.especie()
+print(gato1.especie())#chama metodo asbtrato da classe mae sem precisar criar objeto cachorro1
 
 vaca1.emitir_som()
 vaca1.locomover()
-vaca1.especie()
+print(vaca1.especie())#chama metodo asbtrato da classe mae sem precisar criar objeto cachorro1
 
